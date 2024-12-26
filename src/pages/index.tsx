@@ -4,9 +4,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>My CV</title>
-      </Head>
       <main className="bg-gray-100 min-h-screen py-10 px-5">
         <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg overflow-hidden">
           {/* Header Section */}
