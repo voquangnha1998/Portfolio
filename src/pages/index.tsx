@@ -4,10 +4,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="bg-gray-100 min-h-screen py-10 px-5">
+      <Head>
+        <title>My CV</title>
+      </Head>
+      <main className="bg-gray-100 min-h-screen py-10 px-5">
         <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg overflow-hidden">
           {/* Header Section */}
-          <div className="flex items-center gap-6 p-6 bg-orange-500 text-white">
+          <header className="flex items-center gap-6 p-6 bg-orange-500 text-white">
             <Image
               src="/images/profile.jpg"
               alt="Profile Picture"
@@ -22,7 +25,7 @@ export default function Home() {
               <p>Birthday: November 07, 1998</p>
               <p>Gender: Male</p>
             </div>
-          </div>
+          </header>
 
           {/* Introduction Section */}
           <section className="p-6">
@@ -80,7 +83,7 @@ export default function Home() {
             </ul>
           </section>
         </div>
-      </div>
+      </main>
     </>
   );
 }
