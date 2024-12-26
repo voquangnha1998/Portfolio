@@ -31,7 +31,7 @@ export default function Home() {
           <section className="p-6">
             <h2 className="text-xl font-bold mb-4">Career Objective</h2>
             <p className="text-justify">
-              Hi, my name is Quang Nha! I'm a Software Engineer and I mostly focus on Software Architecture and Development. I will make use of my skills & experience to become a developer .Net professional and bring a lot of value to Customers. Committed to continuous learning and applying cutting-edge solutions to meet business objectives and deliver exceptional user experiences. From that, I will contribute to the development of the Company.
+              Hi, my name is Quang Nha! I&apos;m a Software Engineer and I mostly focus on Software Architecture and Development. I will make use of my skills & experience to become a developer .Net professional and bring a lot of value to Customers. Committed to continuous learning and applying cutting-edge solutions to meet business objectives and deliver exceptional user experiences. From that, I will contribute to the development of the Company.
             </p>
           </section>
 
